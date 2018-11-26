@@ -26,9 +26,6 @@ X.all('/alexa', (req, res) => {
     ctx.Promise.then((ans) => res.json(ans));
   });
 });
-X.all('/slack/install', (req, res) => {
-  res.redirect(`https://slack.com/oauth/authorize?client_id=${E.SLACK_CLIENT_ID}&scope=${E.SLACK_SCOPE}`);
-});
 X.all('/', (req, res) => res.redirect(`https://skillf.github.io/extra-audio`));
 
 
