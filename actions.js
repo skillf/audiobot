@@ -164,6 +164,7 @@ async function stop(conv) {
 app.intent('Default Fallback Intent', defaultFallback);
 app.intent('Default Welcome Intent', defaultWelcome);
 app.intent('Play Option', playOption);
+app.intent('Play Video', play);
 app.intent('Play', play);
 app.intent('Stop', stop);
 module.exports = app;
