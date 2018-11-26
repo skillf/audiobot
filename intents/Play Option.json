@@ -1,0 +1,50 @@
+{
+  "id": "6bf7de86-188c-4104-99cc-65174e73a18d",
+  "name": "Play Option",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "393c4918-c09b-4edb-9a2f-46658a28704a",
+          "dataType": "@a_option",
+          "name": "a_option",
+          "value": "$a_option",
+          "isList": false
+        },
+        {
+          "id": "ecf3d56f-1011-4ff8-8d71-c0229fdc69fe",
+          "dataType": "@w_play",
+          "name": "w_play",
+          "value": "$w_play",
+          "isList": false
+        },
+        {
+          "id": "ea91b686-69a5-4009-8738-25d2f41cb450",
+          "dataType": "@w_want",
+          "name": "w_want",
+          "value": "$w_want",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543241913,
+  "fallbackIntent": false,
+  "events": []
+}

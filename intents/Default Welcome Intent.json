@@ -1,0 +1,43 @@
+{
+  "id": "0ccaebcf-3a7f-44be-a02f-c6607b7e8761",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hello User. I can play audio from the corners of the internet.\nSomething like \"Play Halo Combat Evolved O.S.T.\".",
+            "Hi Person. I love all the Game soundtracks.\nSay like \"Start Splinter Cell Blacklist O.S.T.\".",
+            "Hey Homo sapiens. Like satirical news?\nAsk me \"I want to listen to Last Week Tonight\".",
+            "Dear organism. Interested in Wikipedia articles?\nTry like \"Tell me about Himalayas, Wikipedia audio article\"."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1542820051,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}

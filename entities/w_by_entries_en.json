@@ -1,0 +1,22 @@
+[
+  {
+    "value": "by",
+    "synonyms": [
+      "by"
+    ]
+  },
+  {
+    "value": "by channel",
+    "synonyms": [
+      "by channel",
+      "by user",
+      "by uploader",
+      "by artist",
+      "by creator",
+      "by designer",
+      "by producer",
+      "by master",
+      "by author"
+    ]
+  }
+]

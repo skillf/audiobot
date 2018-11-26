@@ -1,0 +1,42 @@
+{
+  "id": "7580d525-22c2-414a-8496-3f739f385c23",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "What the hell!",
+            "Oh no! I don\u0027t know that.",
+            "Am i growing too old?",
+            "Didn\u0027t hear you.",
+            "I love your voice!",
+            "Are we on the same page?",
+            "My program CRASHED!",
+            "Are you a program too?",
+            "I love Peanut butter, do you?",
+            "Do i have cotton in my ears?",
+            "I didn\u0027t eat. Ears malfunctioning.",
+            "Oh ho ho. Merry Christmas."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1542815241,
+  "fallbackIntent": true,
+  "events": []
+}

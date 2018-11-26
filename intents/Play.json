@@ -1,0 +1,66 @@
+{
+  "id": "e748d771-2049-4c61-aaf6-21ef78344daa",
+  "name": "Play",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5d0b059a-a55f-4d1d-a3d2-07ed28e0281b",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "query",
+          "value": "$query",
+          "isList": false
+        },
+        {
+          "id": "6f86d337-c210-4783-bdec-0e649f12d210",
+          "required": false,
+          "dataType": "@w_want",
+          "name": "w_want",
+          "value": "$w_want",
+          "isList": false
+        },
+        {
+          "id": "510a6c3a-bf35-4b0a-bb55-cabaa77da3c4",
+          "required": false,
+          "dataType": "@w_play",
+          "name": "w_play",
+          "value": "$w_play",
+          "isList": false
+        },
+        {
+          "id": "58d84ec8-fbad-4f0d-b390-893ed6b6d6b6",
+          "required": false,
+          "dataType": "@w_about",
+          "name": "w_about",
+          "value": "$w_about",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "No results returned.",
+            "How do i not know this!",
+            "I just forgot about it.",
+            "Ignore this, get to work."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1543225166,
+  "fallbackIntent": false,
+  "events": []
+}

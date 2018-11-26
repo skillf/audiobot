@@ -1,0 +1,41 @@
+[
+  {
+    "value": "again",
+    "synonyms": [
+      "again",
+      "another time",
+      "more time",
+      "second time",
+      "once more",
+      "repeat",
+      "replay",
+      "then"
+    ]
+  },
+  {
+    "value": "next",
+    "synonyms": [
+      "next",
+      "following",
+      "succeeding",
+      "to come",
+      "upcoming"
+    ]
+  },
+  {
+    "value": "match",
+    "synonyms": [
+      "match",
+      "search",
+      "result"
+    ]
+  },
+  {
+    "value": "suggest",
+    "synonyms": [
+      "suggest",
+      "recommend",
+      "advice"
+    ]
+  }
+]

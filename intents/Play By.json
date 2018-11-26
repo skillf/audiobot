@@ -1,0 +1,76 @@
+{
+  "id": "86626d5e-afa4-40b0-8ca5-ca1fc601d831",
+  "name": "Play By",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b0cdcd9f-a336-49c5-816e-7347ea3a8ae3",
+          "required": false,
+          "dataType": "@w_play",
+          "name": "w_play",
+          "value": "$w_play",
+          "isList": false
+        },
+        {
+          "id": "61ea4d6c-91cf-4bb7-82c7-6367a732c3ee",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "query",
+          "value": "$query",
+          "isList": false
+        },
+        {
+          "id": "bfbb6834-48a4-4209-ae56-61c24ff848f0",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "channel",
+          "value": "$channel",
+          "isList": false
+        },
+        {
+          "id": "6699961e-ad8e-465e-9ec5-4ddf58c47ad6",
+          "required": false,
+          "dataType": "@w_by",
+          "name": "w_by",
+          "value": "$w_by",
+          "isList": false
+        },
+        {
+          "id": "d628a2f0-eefc-410f-a8d6-b5b08a8b4190",
+          "required": false,
+          "dataType": "@w_about",
+          "name": "w_about",
+          "value": "$w_about",
+          "isList": false
+        },
+        {
+          "id": "392ef32c-43c7-41f5-a1ac-14d6907391e7",
+          "dataType": "@w_want",
+          "name": "w_want",
+          "value": "$w_want",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543225968,
+  "fallbackIntent": false,
+  "events": []
+}
