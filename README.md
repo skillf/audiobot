@@ -1,7 +1,5 @@
 Listen to audio from the corners of the Internet.
 
-You can ask me about the "name", "code", "type", or "approval" of any such additive. You can ask like:
-
 ```text
 Welcome Chief. I can play audio from the corners of the Internet.
 Something like "Play Halo Combat Evolved O.S.T.".
@@ -29,3 +27,7 @@ Shout "I want to hear Christmas carols by Listening Music".
 ```
 
 Say "stop / bye" when you are done talking to me.`,
+<br>
+
+
+[![skillf](https://i.imgur.com/b77JGX0.jpg)](https://skillf.github.io)
