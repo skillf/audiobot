@@ -32,3 +32,6 @@ Say "stop / bye" when you are done talking to me.`,
 
 
 [![skillf](https://i.imgur.com/b77JGX0.jpg)](https://skillf.github.io)
+> [Privacy policy].
+
+[Privacy policy]: https://docs.google.com/document/d/1mjAu7fq38TkUe2UjssOQLNGWqvH7MtLgk3HFnDHxZ0I/edit?usp=sharing
