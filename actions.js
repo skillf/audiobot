@@ -11,7 +11,7 @@ const message = require('./message');
 // Global variables
 const app = dialogflow();
 const store = new Map();
-
+const RAPP = /.*?extra\W+audio(\W+and|\W+to)?\W*/i;
 
 // Check if URL is accessible.
 function httpsAccess(url) {
@@ -79,8 +79,11 @@ async function youtubeAudio(vids) {
   var inf = null, url = null;
   console.log('-youtubeAudio:', vids.length);
   for(var i=0, I=vids.length; i<I; i++) {
-    inf = await ytdl.getInfo(videoUrl(vids[i].id), {format: 'm4a'});
-    url = audioUrl(inf);
+    try {
+      inf = await ytdl.getInfo(videoUrl(vids[i].id), {format: 'm4a'});
+      url = audioUrl(inf);
+    }
+    catch(e) { console.error(e); }
     if(url) break;
   }
   vids.splice(0, i+1);
@@ -123,7 +126,9 @@ async function playList(conv) {
 // Intent "Default Fallback Intent"
 async function defaultFallback(conv) {
   console.log('@defaultFallback:', conv.query, conv.id);
-  return conv.ask(conv.body.queryResult.fulfillmentText+' Anything else?');
+  var query = RAPP.test(conv.query)? conv.query.replace(RAPP, ''):null;
+  if(query==null) conv.ask(conv.body.queryResult.fulfillmentText);
+  return query? play(conv, {query}):defaultWelcome(conv);
 };
 
 // Intent "Default Welcome Intent"
