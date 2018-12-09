@@ -2,8 +2,8 @@ const {dialogflow, Suggestions, LinkOutSuggestion, MediaObject, Image} = require
 const ytSearch = require('@nodef/yt-search');
 const natural = require('natural');
 const ytdl = require('ytdl-core');
-const urlParse = require('url').parse;
 const https = require('https');
+const urlParse = require('url').parse;
 const query = require('./query');
 const message = require('./message');
 
@@ -134,7 +134,7 @@ async function defaultFallback(conv) {
 // Intent "Default Welcome Intent"
 async function defaultWelcome(conv) {
   console.log('@defaultWelcome:', conv.query, conv.id);
-  return conv.ask(conv.body.queryResult.fulfillmentText);
+  return conv.ask(message('welcome'));
 };
 
 // Intent "Play Option"

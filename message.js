@@ -9,10 +9,14 @@ const HELP = [
 Say "done", or "got it" when you are done talking to me.`,
 ];
 const WELCOME = [
-  'Hi! You can ask me about the "name", "code", "type", or "approval" of any food additive. Say "help", to know more, or "done" when you are done talking to me.',
-  'Hello! You can ask me about the "name", "code", "type", or "approval" of any food additive. Say "help", to know more, or "done" when you are done talking to me.',
-  'Good day! You can ask me about the "name", "code", "type", or "approval" of any food additive. Say "help", to know more, or "done" when you are done talking to me.',
-  'Greetings! You can ask me about the "name", "code", "type", or "approval" of any food additive. Say "help", to know more, or "done" when you are done talking to me.',
+  'Welcome Chief. I can play audio from the corners of the Internet.\nSomething like "Play Halo Combat Evolved O.S.T.".',
+  'Hi Person. I love reading out finance books.\nSay like "Read Rich Dad Poor Dad audiobook".',
+  'Hey Homo sapiens. Like satirical news?\nAsk me "I want to listen to Last Week Tonight".',
+  'Dear organism. Interested in Wikipedia articles?\nTry like "Tell me about Himalayas, Wikipedia audio article".',
+  'Salute Master. I love all game soundtracks.\nSomething like "Hear Splinter Cell Blacklist O.S.T.".',
+  'Hello User. Do you like comedy dialogues? Ask me "Start Stuart little funny Hindi".',
+  'Greetings friend. Is it time for learning Parkour? Let\'s start with "Play Warning Call - Mirror\'s Edge".',
+  'Ho Ho Ho. Ready for Christmas?\nShout "I want to hear Christmas carols by Listening Music".',
 ];
 const STOP = [
   'Goodbye!',

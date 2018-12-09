@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const https = require('https');
 const http = require('http');
+const message = require('./message');
 const actions = require('./actions');
 const alexa = require('./alexa');
 const query = require('./query');
